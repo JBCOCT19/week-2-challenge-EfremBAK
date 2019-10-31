@@ -33,7 +33,7 @@ public class ChipotleJr {
     public static void main(String[] args) {
 //food categories declared
         String[] rice = {"white rice", "brown rice", "no rice"};
-        String[] meat = {"chicken meat", "steak meat", "carnidas", "sofritas", "veggies"};
+        String[] meat = {"chicken meat", "steak meat", "chorizo", "carnidas", "sofritas", "veggies"};
         String[] beans = {"pinto beans", "black beans", "no beans"};
         String[] salsa = {"mild salsa", "medium salsa", "hot salsa", "no salsa"};
         String[] veggies = {"lettuce", "fajita veggies", "no veggies"};
@@ -46,7 +46,7 @@ public class ChipotleJr {
             //will generate the index
 
             int rr = r.nextInt(3), rb = r.nextInt(3), rv = r.nextInt(3);
-            int rm = r.nextInt(5);
+            int rm = r.nextInt(6);
             int rs = r.nextInt(4);
 
 
